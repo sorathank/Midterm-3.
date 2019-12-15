@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="10.499999999999986" y="91.0">Forest.Tree</node>
+    <node x="193.34722222222223" y="253.0">Forest.Tiger</node>
+    <node x="11.7222222222222" y="172.0">Base.Herbivore</node>
+    <node x="37.54166666666663" y="253.0">Forest.Zebra</node>
+    <node x="55.59722222222223" y="0.0">Base.Living</node>
+    <node x="175.34722222222223" y="172.0">Base.Carnivore</node>
+    <node x="114.49999999999999" y="91.0">Base.Animal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Forest.Zebra" target="Base.Herbivore">
+      <point x="23.25000000000003" y="-15.5" />
+      <point x="107.29166666666666" y="228.0" />
+      <point x="108.47222222222223" y="228.0" />
+      <point x="32.25000000000003" y="15.5" />
+    </edge>
+    <edge source="Forest.Tiger" target="Base.Carnivore">
+      <point x="-23.25" y="-15.5" />
+      <point x="216.59722222222223" y="228.0" />
+      <point x="207.59722222222223" y="228.0" />
+      <point x="-32.25" y="15.5" />
+    </edge>
+    <edge source="Base.Herbivore" target="Base.Animal">
+      <point x="43.00000000000003" y="-15.5" />
+      <point x="119.22222222222223" y="152.0" />
+      <point x="152.74999999999997" y="152.0" />
+      <point x="-12.75" y="15.5" />
+    </edge>
+    <edge source="Base.Carnivore" target="Base.Living">
+      <point x="43.000000000000014" y="-15.5" />
+      <point x="282.84722222222223" y="142.0" />
+      <point x="240.27777777777777" y="142.0" />
+      <point x="240.27777777777777" y="51.0" />
+      <point x="149.09722222222223" y="51.0" />
+      <point x="42.499999999999986" y="15.5" />
+    </edge>
+    <edge source="Base.Animal" target="Base.Living">
+      <point x="25.5" y="-15.5" />
+      <point x="191.0" y="61.0" />
+      <point x="132.09722222222223" y="61.0" />
+      <point x="25.499999999999986" y="15.5" />
+    </edge>
+    <edge source="Base.Herbivore" target="Base.Living">
+      <point x="-42.99999999999997" y="-15.5" />
+      <point x="33.22222222222223" y="152.0" />
+      <point x="0.0" y="152.0" />
+      <point x="0.0" y="51.0" />
+      <point x="64.09722222222223" y="51.0" />
+      <point x="-42.5" y="15.5" />
+    </edge>
+    <edge source="Forest.Tree" target="Base.Living">
+      <point x="-21.0" y="-15.5" />
+      <point x="31.499999999999986" y="61.0" />
+      <point x="81.09722222222223" y="61.0" />
+      <point x="-25.5" y="15.5" />
+    </edge>
+    <edge source="Base.Carnivore" target="Base.Animal">
+      <point x="-42.999999999999986" y="-15.5" />
+      <point x="196.84722222222223" y="152.0" />
+      <point x="178.25" y="152.0" />
+      <point x="12.75" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="437.9999999999999" y="176.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
